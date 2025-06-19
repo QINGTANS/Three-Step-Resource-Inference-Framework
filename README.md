@@ -21,7 +21,7 @@ You should follow these steps:
 6. Run `jupyter notebook` to open the jupyter notebook under this environment.
 7. Open the file **three-step-resource-inference.ipynb** in the jupyter notebook page.
 8. Set the parameters (i.e., the number of inferred resources) in the second cell.
-9. Click run all cells and waiting for the results.
+9. Click run all cells and wait for the results.
 
 ## Running example
 We use nine real-word Business Process Intelligence Challenges (BPIC) event logs as train set.
