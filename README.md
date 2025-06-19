@@ -1,5 +1,5 @@
-# Three-Step-Resource-Inference-Framework (TSI)
-TSI addresses the problems of assigning resource attributes to event logs that lack resource information. 
+# Three-Step-Resource-Inference-Framework
+Three-Step-Resource-Inference-Framework addresses the problems of assigning resource attributes to event logs that lack resource information. 
 It contains two phases: the **Extraction** phase and the **Inference** phase.
 In the **Extraction** phase, it extracts four domains and train two logistic regression classifiers from numbers of train logs.
 In the **Inference** phase, it applies the domains and classifiers to infer resource attributes for event logs without the resource information.
@@ -19,4 +19,15 @@ You should follow these steps:
 4. Run `conda install notebook ipykernel` to install the notebook in the environment.
 5. Run `pip install -r requirements.txt` to install python packages.
 6. Run `jupyter notebook` to open the jupyter notebook under this environment.
-7. In the jupyter notebook, open the file **three
+7. Open the file **three-step-resource-inference.ipynb** in the jupyter notebook page.
+8. Set the parameters (i.e., the number of inferred resources) in the second cell.
+9. Click run all cells and waiting for the results.
+
+## Running example
+We use nine real-word Business Process Intelligence Challenges (BPIC) event logs as train set.
+Then use another BPIC event log (**BPIC2011**) as the test log.
+The middle output after **Step-2** and the final output after **Step-3** will be stored in the **generated_log_set**.
+We also evaluate the inference precision, and also generate two resource inference results using two baseline approaches.
+
+## Authors
+Qingtan Shen, Artem Polyvyanyy, Nir Lipovetzky, Timotheus Kampik
