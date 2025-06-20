@@ -8,7 +8,7 @@ In the **Inference** phase, it applies the domains and classifiers to infer reso
 ## Prerequisites
 1. You should add all train logs in the **train_log_set** package, for each train log, it should contain at least contain case (named as **case_id**), activity (named as **activity_type**), timestamp (named as **timestamp**), and resource attribute (named as **agent_id**).
 2. You should add all test logs in the **test_log_set** package, for each train log, it should contain at least contain case (named as **case_id**), activity (named as **activity_type**), timestamp (named as **timestamp**). If the test log contains the ground truth resource attribute (named as **agent_id**), then you can run the evaluation code to get the inference accuracy.
-3. The outputs will be stored in the default package (named as **generated_log_set**).
+3. The outputs will be stored automatically in the default package (named as **generated_log_set**).
 4. You should install **conda** that will be applied to create the environment.
 
 ## How to run the Three-Step-Resource-Inference-Framework
