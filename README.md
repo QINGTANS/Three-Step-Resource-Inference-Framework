@@ -24,10 +24,10 @@ You should follow these steps:
 9. Click run all cells and wait for the results.
 
 ## Running example
-We use nine real-word Business Process Intelligence Challenges (BPIC) event logs as train set.
+We use nine real-word Business Process Intelligence Challenges (BPIC) event logs as the train set.
 Then use another BPIC event log (**BPIC2011**) as the test log.
 The middle output after **Step-2** and the final output after **Step-3** will be stored in the **generated_log_set**.
-We also evaluate the inference precision, and also generate two resource inference results using two baseline approaches.
+Then we evaluate the inference precision, and also generate two resource inference results using two baseline approaches.
 
 ## Authors
 Qingtan Shen, Artem Polyvyanyy, Nir Lipovetzky, Timotheus Kampik
